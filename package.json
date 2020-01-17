@@ -1,0 +1,40 @@
+{
+  "name": "react-setup-app",
+  "version": "1.0.0",
+  "description": "Basic react application setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env.mode development --watch",
+    "prod": "webpack --env.mode production --watch",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "and": "^0.0.3",
+    "css-loader": "^3.4.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "loader-utils": "^1.2.3",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "require": "^2.4.20",
+    "style-loader": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
